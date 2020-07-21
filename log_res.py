@@ -1,5 +1,8 @@
+"""
+@author: SuhridKrishna
+"""
+
 import pandas as pd
-import numpy as np
 
 import nltk
 from nltk.tokenize import word_tokenize
@@ -82,5 +85,6 @@ if __name__ == "__main__":
     )
 
 submission.to_csv(
-    "G:\Kaggle\Real or Not NLP with Disaster Tweets\submission.csv", index=False
+    "G:\Kaggle\Real or Not NLP with Disaster Tweets\submissions\submission_logres.csv",
+    index=False,
 )
