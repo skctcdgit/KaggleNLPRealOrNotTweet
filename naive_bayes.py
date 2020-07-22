@@ -59,10 +59,10 @@ if __name__ == "__main__":
         # print("_"*50)
         # print(xtest)
 
-        # Logistic Regression Model
+        # Naive Bayes Model
         nb_model = naive_bayes.MultinomialNB()
 
-        # fit logistic model
+        # fit nb model
         nb_model.fit(xtrain, train_df.target)
 
         # predict on test data
